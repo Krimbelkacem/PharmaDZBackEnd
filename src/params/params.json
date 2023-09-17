@@ -1,0 +1,12 @@
+{
+  "experiation_margin": 30,
+  "nb_result": 5,
+  "nb_pharma_result_max": 3,
+  "scope": 1120,
+  "max_distance": 20,
+  "coefficients": {
+    "distance": 0.3,
+    "quantity": 0.3,
+    "expiration": 0.4
+  }
+}

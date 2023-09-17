@@ -1,0 +1,8 @@
+//recuperer les medicamant avec le dci 01 A 003
+http://127.0.0.1:8080/api/v1/medicaments/related?codedci=01%20A%20003
+
+//recuperer les details du medicament avec l'id 1
+http://127.0.0.1:8080/api/v1/medicaments/1
+
+//recuperer la list des medicaments
+http://127.0.0.1:8080/api/v1/medicaments

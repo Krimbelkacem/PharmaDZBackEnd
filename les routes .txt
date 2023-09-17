@@ -1,0 +1,24 @@
+
+api/
+    v1/
+        ///authentication
+        auth/
+            signin //connexion
+            signup //inscription
+            signout //deconnexion
+        ///utilisateur
+        users/
+            / (method:post pour create ) pour admin
+            / (method:get pour listing) pour admin
+            /:id (method:get pour details utilisateur avec id ) admin et utilisateur avec id
+            /:id (method:delete pour siprimer utilisateur avec id)
+            /:id (put )
+api/v1/auth/signin
+api/v1/auth/signup
+api/v1/auth/signout
+
+///utilisateur
+api/v1/users   //get (listing)
+api/v1/users/:id //get (get user details)
+api/v1/
+
